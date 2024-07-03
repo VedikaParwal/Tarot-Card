@@ -1,0 +1,91 @@
+<style>
+	.card-full-container {
+        background-color: #000;
+		display: flex;
+		margin: 0;
+		padding: 20px;
+	}
+	.cards-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		max-width: 100%;
+	}
+	.card {
+		background-color: #fe009859;
+		border-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #fff;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		color: white;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		transition: transform 0.3s;
+	}
+	.card:hover {
+		transform: scale(1.05);
+		background-color: #fe0098d1;
+	}
+	.icon {
+		background-color: #ff007f;
+		border-radius: 10px;
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 20px;
+		font-size: 24px;
+	}
+	.text-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.label {
+		font-size: 14px;
+		color: #bbb;
+	}
+	.value {
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	@media only screen and (max-width: 768px) {
+		.cards-container {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
+<div class="card-full-container">
+	<div class="cards-container">
+		<div class="card">
+			<div class="icon">📹</div>
+			<div class="text-container">
+				<div class="label">Duration</div>
+				<div class="value">2+ Hours</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="icon">🌐</div>
+			<div class="text-container">
+				<div class="label">Language</div>
+				<div class="value">English</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="icon">📅</div>
+			<div class="text-container">
+				<div class="label">Date</div>
+				<div class="value">03 JUL 2024</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="icon">⏰</div>
+			<div class="text-container">
+				<div class="label">Time</div>
+				<div class="value">7PM IST</div>
+			</div>
+		</div>
+	</div>
+</div>
