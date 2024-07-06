@@ -22,13 +22,13 @@
 /** The name of the database for WordPress */
 define( 'FS_METHOD', 'direct' );
 
-define( 'DB_NAME', 'Tarot_Card' );
+define( 'DB_NAME', 'Tarot' );
 
 /** Database username */
-define( 'DB_USER', 'aryank' );
+define( 'DB_USER', 'vedika' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '123test' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
