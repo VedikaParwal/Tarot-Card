@@ -25,10 +25,10 @@ define( 'FS_METHOD', 'direct' );
 define( 'DB_NAME', 'Tarot' );
 
 /** Database username */
-define( 'DB_USER', 'vedika' );
+define( 'DB_USER', 'aryank' );
 
 /** Database password */
-define( 'DB_PASSWORD', '123test' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
